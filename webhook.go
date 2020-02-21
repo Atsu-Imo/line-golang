@@ -20,8 +20,8 @@ var (
 
 // LineInfo LineのMessagingAPIを使用するためのあれこれ
 type LineInfo struct {
-	LineSecret string `json: "line_secret`
-	LineToken  string `json: "line_token"`
+	LineSecret string `json:"line_secret"`
+	LineToken  string `json:"line_token"`
 }
 
 func init() {
